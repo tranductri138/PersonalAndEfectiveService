@@ -14,6 +14,7 @@ export class CourseRepository {
     }
 
     async findAll(): Promise<Course[]> {
+        const a = ['a']
         return this.courseModel.find().exec();
     }
 
