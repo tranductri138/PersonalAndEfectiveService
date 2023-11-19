@@ -2,7 +2,6 @@ import {Module} from '@nestjs/common';
 import {ConfigModule} from '@nestjs/config';
 import {MongooseModule} from '@nestjs/mongoose';
 import {BeersModule} from './beers/beers.module';
-import {CourseController} from './course/course.controller';
 import {CourseModule} from './course/course.module';
 
 @Module({
